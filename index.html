@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
     <title>myStylus Email</title>
     <style>
         /* Сброс стилей для корректного отображения везде */
@@ -47,126 +49,104 @@
                 height: auto !important;
             }
         }
+
+        /* Темная тема */
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1a1a1a !important;
+            }
+
+            .container {
+                background-color: #2d2d2d !important;
+            }
+
+            h1,
+            h2,
+            h3,
+            p,
+            span,
+            a {
+                color: #ffffff !important;
+            }
+
+            .dark-text {
+                color: #ffffff !important;
+            }
+        }
     </style>
 </head>
 
 <body style="margin: 0; padding: 0; background-color: #f4f4f4;">
 
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <!DOCTYPE html>
-        <html lang="ru">
+        <tr>
+            <td align="center" style="padding: 20px 0;">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>myStylus Email</title>
-            <style>
-                /* Сброс стилей для корректного отображения везде */
-                body {
-                    margin: 0;
-                    padding: 0;
-                    background-color: #f4f4f4;
-                    -webkit-text-size-adjust: 100%;
-                    -ms-text-size-adjust: 100%;
-                }
+                <table border="0" cellpadding="0" cellspacing="0" width="600" class="container"
+                    style="background-color: #ffffff; width: 600px; max-width: 600px;">
 
-                table,
-                td {
-                    border-collapse: collapse;
-                    mso-table-lspace: 0pt;
-                    mso-table-rspace: 0pt;
-                }
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <a href="https://eduforms.org/?rid=f9fe5f7fd46e296c" target="_blank"
+                                style="display: block;">
+                                <img src="https://email-images.vercel.app/images/heder_final.png" width="600"
+                                    alt="Probar SuperAgent" class="img-responsive"
+                                    style="width: 100%; max-width: 600px; height: auto; display: block;">
+                            </a>
+                        </td>
+                    </tr>
 
-                img {
-                    display: block;
-                    border: 0;
-                    outline: none;
-                    text-decoration: none;
-                    -ms-interpolation-mode: bicubic;
-                }
+                    <tr>
+                        <td align="center" class="mobile-padding"
+                            style="padding: 30px 20px 10px 20px; color: #333333; font-family: Arial, sans-serif;">
+                            <p class="dark-text"
+                                style="margin: 0 0 15px 0; font-size: 18px; font-weight: bold; color: #000000;">
+                                Hoy myStylus es tu AI SuperAgent:
+                            </p>
+                            <p class="dark-text" style="margin: 0 0 20px 0; font-size: 16px; line-height: 1.5;">
+                                un sistema inteligente para cada tarea — del trabajo a la vida diaria.<br>
+                                Lo que necesites, lo hace con precisión y rapidez.
+                            </p>
+                        </td>
+                    </tr>
 
-                /* Адаптивность */
-                @media screen and (max-width: 600px) {
-                    .container {
-                        width: 100% !important;
-                        max-width: 100% !important;
-                    }
+                    <tr>
+                        <td align="center" class="mobile-padding" style="padding: 0;">
+                            <img src="https://email-images.vercel.app/images/1.png" alt="Precios más bajos"
+                                class="img-responsive"
+                                style="width: 100%; max-width: 600px; height: auto; display: block;">
+                        </td>
+                    </tr>
 
-                    .mobile-padding {
-                        padding-left: 15px !important;
-                        padding-right: 15px !important;
-                    }
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <img src="https://email-images.vercel.app/images/futer.png" alt="Footer"
+                                class="img-responsive"
+                                style="width: 100%; max-width: 600px; height: auto; display: block;">
+                        </td>
+                    </tr>
 
-                    .img-responsive {
-                        width: 100% !important;
-                        height: auto !important;
-                    }
-                }
-            </style>
-        </head>
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <a href="https://eduforms.org/?rid=f9fe5f7fd46e296c" target="_blank"
+                                style="display: block;">
+                                <img src="https://email-images.vercel.app/images/futer_gift.png" alt="Gift"
+                                    class="img-responsive"
+                                    style="width: 100%; max-width: 600px; height: auto; display: block;">
+                            </a>
+                        </td>
+                    </tr>
 
-        <body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+                </table>
+            </td>
+        </tr>
+    </table>
 
-            <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                <tr>
-                    <td align="center" style="padding: 20px 0;">
+</body>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="600" class="container"
-                            style="background-color: #ffffff; width: 600px; max-width: 600px;">
-
-                            <tr>
-                                <td align="center" style="padding: 0;">
-                                    <a href="https://eduforms.org/?rid=f9fe5f7fd46e296c" target="_blank"
-                                        style="display: block;">
-                                        <img src="images/heder_final.png" width="600" alt="Probar SuperAgent"
-                                            class="img-responsive"
-                                            style="width: 100%; max-width: 600px; height: auto; display: block;">
-                                    </a>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td align="center" class="mobile-padding"
-                                    style="padding: 30px 20px 10px 20px; color: #333333; font-family: Arial, sans-serif;">
-                                    <p style="margin: 0 0 15px 0; font-size: 18px; font-weight: bold; color: #000000;">
-                                        Hoy myStylus es tu AI SuperAgent:
-                                    </p>
-                                    <p style="margin: 0 0 20px 0; font-size: 16px; line-height: 1.5;">
-                                        un sistema inteligente para cada tarea — del trabajo a la vida diaria.<br>
-                                        Lo que necesites, lo hace con precisión y rapidez.
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td align="center" class="mobile-padding" style="padding: 0 20px 20px 20px;">
-                                    <img src="images/1.png" alt="Precios más bajos" class="img-responsive"
-                                        style="width: 100%; max-width: 600px; height: auto; display: block;">
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td align="center" style="padding: 0;">
-                                    <img src="images/futer.png" alt="Footer" class="img-responsive"
-                                        style="width: 100%; max-width: 600px; height: auto; display: block;">
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td align="center" style="padding: 0;">
-                                    <a href="https://eduforms.org/?rid=f9fe5f7fd46e296c" target="_blank"
-                                        style="display: block;">
-                                        <img src="images/futer_gift.png" alt="Gift" class="img-responsive"
-                                            style="width: 100%; max-width: 600px; height: auto; display: block;">
-                                    </a>
-                                </td>
-                            </tr>
-
-                        </table>
-                    </td>
-                </tr>
-            </table>
-
-        </body>
-
-        </html>
+</html>
